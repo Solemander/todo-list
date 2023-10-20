@@ -1,5 +1,5 @@
-yes{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.background{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(100deg, #00ffc8, #1aff00)
 }
