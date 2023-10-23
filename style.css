@@ -7,14 +7,22 @@
 .background{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(100deg, #00ffc8, #1aff00)
+    background: linear-gradient(100deg, #0080ff, #04ff00);
+    padding: 10px;
 }
 
-.todo-app{
+.todo-box{
     width: 100%;
     max-width: 540px;
     background: #ffffff;
-    margin: 100px auto 20px;
-    padding: 40px 30px 70px;
+    margin: 20px auto 20px;
+    padding: 50px 20px 40px;
     border-radius: 10px;
+}
+
+.todo-box h2{
+    color: #0080ff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
