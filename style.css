@@ -28,7 +28,7 @@
     margin-bottom: 25px;
 }
 
-.row{
+.list{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,4 +54,24 @@ button{
     color: #ffffff;
     cursor: pointer;
     border-radius: 35px;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px 5px 10px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 5px;
+    left: 10px;
 }
