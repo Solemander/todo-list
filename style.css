@@ -28,7 +28,7 @@
     margin-bottom: 25px;
 }
 
-.list{
+.add-tasks-box{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -74,4 +74,13 @@ ul li::before{
     background-position: center;
     top: 5px;
     left: 10px;
+}
+
+ul li.checked{
+    color: #838383;
+    text-decoration: line-through;
+}
+
+ul li.checked::before{
+    background-image: url(images/checked.png);
 }

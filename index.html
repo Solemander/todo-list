@@ -7,19 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- whole page -->
     <div class="background">
+
+        <!-- the white box -->
         <div class="todo-box">
             <h2>To-do list</h2>
-            <div class="list">
+
+            <!-- the text box to add tasks -->
+            <div class="add-tasks-box">
                 <input type="text" id="input-box" placeholder="Add task to list">
-                 <button>Add</button>
+                 <button onclick="addTask()">Add</button>
             </div>
+
+            <!-- the list of the tasks -->
             <ul id="task-list">
-                <li>Task 1</li>
+                <!-- <li class="checked">Task 1</li>
                 <li>Task 2</li>
-                <li>Task 3</li>
+                <li>Task 3</li> -->
             </ul>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
