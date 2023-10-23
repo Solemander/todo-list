@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .background{
@@ -31,10 +32,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #b7b8bb;
-    border-radius: 30px;
-    padding-left: 20px;
-    margin-bottom: 25px;
+    background: #d4d4d6;
+    border-radius: 35px;
+    padding-left: 25px;
+    margin-bottom: 20px;
 }
 
 input{
@@ -43,4 +44,14 @@ input{
     outline: none;
     background: transparent;
     padding: 10px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 15px 60px;
+    background: #ff7700;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 35px;
 }
