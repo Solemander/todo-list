@@ -1,3 +1,4 @@
+/* default setting for the whole page */
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* the background color */
 .background{
     width: 100%;
     min-height: 100vh;
@@ -12,6 +14,7 @@
     padding: 10px;
 }
 
+/* the white box */
 .todo-box{
     width: 100%;
     max-width: 540px;
@@ -21,6 +24,7 @@
     border-radius: 10px;
 }
 
+/* the text on the top of the white box */
 .todo-box h2{
     color: #0080ff;
     display: flex;
@@ -28,6 +32,7 @@
     margin-bottom: 25px;
 }
 
+/* the grey box where you write your tasks */
 .add-tasks-box{
     display: flex;
     align-items: center;
@@ -38,6 +43,7 @@
     margin-bottom: 20px;
 }
 
+/* this removes a white square that would look bad in the grey box */
 input{
     flex: 1;
     border: none;
@@ -46,6 +52,7 @@ input{
     padding: 10px;
 }
 
+/* the add button */
 button{
     border: none;
     outline: none;
@@ -56,6 +63,7 @@ button{
     border-radius: 35px;
 }
 
+/* the list of the tasks */
 ul li{
     list-style: none;
     padding: 10px 5px 10px 50px;
@@ -64,6 +72,7 @@ ul li{
     position: relative;
 }
 
+/* the unchecked box */
 ul li::before{
     content: '';
     position: absolute;
@@ -76,15 +85,18 @@ ul li::before{
     left: 10px;
 }
 
+/* the checked text */
 ul li.checked{
     color: #838383;
     text-decoration: line-through;
 }
 
+/* the checked box */
 ul li.checked::before{
     background-image: url(images/checked.png);
 }
 
+/* the x to remove the tasks */
 ul li span{
     position: absolute;
     right: 0;
@@ -97,6 +109,7 @@ ul li span{
     border-radius: 50%;
 }
 
+/* the x when you hover your mouse over it */
 ul li span:hover{
     background: #e6e6e6;
 }
