@@ -1,6 +1,6 @@
 # todo-list
 
-INSTALLING AND RUNNING THE PROGRAM
+INSTALLING AND RUNNING THE PROGRAM:
 Install the packaged file, and extract it. All files included and required. Run index.html to open in your browser.
 
 USING THE PROGRAM:
